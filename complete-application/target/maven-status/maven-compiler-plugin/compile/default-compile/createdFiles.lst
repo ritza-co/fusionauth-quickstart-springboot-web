@@ -1,0 +1,7 @@
+io/fusionauth/example/spring/AccountController.class
+io/fusionauth/example/spring/MakeChangeController.class
+io/fusionauth/example/spring/config/WebConfig.class
+io/fusionauth/example/spring/FusionAuthSpringApplication.class
+io/fusionauth/example/spring/model/Change.class
+io/fusionauth/example/spring/config/SecurityConfiguration.class
+io/fusionauth/example/spring/HomeController.class
