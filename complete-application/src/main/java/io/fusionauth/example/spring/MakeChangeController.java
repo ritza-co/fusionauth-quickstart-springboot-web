@@ -31,7 +31,7 @@ public class MakeChangeController {
         change.setError(null);
         try {
             if (change.getTotal() != null) {
-                var totalValue = new BigDecimal(change.getTotal());
+                BigDecimal totalValue = new BigDecimal(change.getTotal());
                 change.setNickels(totalValue
                         .divide(new BigDecimal("0.05"), RoundingMode.HALF_DOWN)
                         .intValue());
