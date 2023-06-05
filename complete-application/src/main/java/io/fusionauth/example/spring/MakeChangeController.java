@@ -14,9 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-/**
- * @author Lyle Schemmerling
- */
 @Controller
 public class MakeChangeController {
     private static final Logger logger = LoggerFactory.getLogger(MakeChangeController.class);
