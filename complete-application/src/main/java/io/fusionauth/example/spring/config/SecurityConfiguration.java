@@ -16,8 +16,8 @@ public class SecurityConfiguration {
     public SecurityFilterChain filterChain(HttpSecurity http, ClientRegistrationRepository repo)
             throws Exception {
 
-        var base_uri = OAuth2AuthorizationRequestRedirectFilter.DEFAULT_AUTHORIZATION_REQUEST_BASE_URI;
-        var resolver = new DefaultOAuth2AuthorizationRequestResolver(repo, base_uri);
+        String base_uri = OAuth2AuthorizationRequestRedirectFilter.DEFAULT_AUTHORIZATION_REQUEST_BASE_URI;
+        DefaultOAuth2AuthorizationRequestResolver resolver = new DefaultOAuth2AuthorizationRequestResolver(repo, base_uri);
 
         resolver.setAuthorizationRequestCustomizer(OAuth2AuthorizationRequestCustomizers.withPkce());
 
