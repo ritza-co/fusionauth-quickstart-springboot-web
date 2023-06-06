@@ -1,4 +1,4 @@
-package io.fusionauth.example.spring;
+package io.fusionauth.quickstart.springweb;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class AccountController {
-
-    public AccountController() {
-
-    }
 
     @RequestMapping("/account")
     public String userPage(Model model, @AuthenticationPrincipal OidcUser principal) {

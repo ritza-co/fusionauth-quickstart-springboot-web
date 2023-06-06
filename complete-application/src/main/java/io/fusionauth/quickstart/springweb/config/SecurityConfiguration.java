@@ -1,4 +1,4 @@
-package io.fusionauth.example.spring.config;
+package io.fusionauth.quickstart.springweb.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

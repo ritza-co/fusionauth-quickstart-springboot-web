@@ -1,10 +1,5 @@
-package io.fusionauth.example.spring.model;
+package io.fusionauth.quickstart.springweb.model;
 
-import java.math.BigDecimal;
-
-/**
- * @author Lyle Schemmerling
- */
 public class Change {
     private String error;
     private String total;

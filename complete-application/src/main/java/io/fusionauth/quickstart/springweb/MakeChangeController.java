@@ -1,6 +1,6 @@
-package io.fusionauth.example.spring;
+package io.fusionauth.quickstart.springweb;
 
-import io.fusionauth.example.spring.model.Change;
+import io.fusionauth.quickstart.springweb.model.Change;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

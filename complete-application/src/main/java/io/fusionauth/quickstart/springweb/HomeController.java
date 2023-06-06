@@ -1,4 +1,4 @@
-package io.fusionauth.example.spring;
+package io.fusionauth.quickstart.springweb;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
