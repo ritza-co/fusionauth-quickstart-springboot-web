@@ -37,7 +37,7 @@ FusionAuth will be initially configured with these settings:
 
 You can log into the [FusionAuth admin UI](http://localhost:9011/admin) and look around if you want, but with Docker/Kickstart you don't need to.
 
-### Spring Web complete-app
+### Spring Web complete-application
 
 The `complete-application` directory contains a minimal SpringBoot app configured to authenticate with locally running FusionAuth.
 
