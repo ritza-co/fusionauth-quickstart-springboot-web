@@ -39,11 +39,11 @@ You can log into the [FusionAuth admin UI](http://localhost:9011/admin) and look
 
 ### Spring Web complete-app
 
-The `complete-app` directory contains a minimal SpringBoot app configured to authenticate with locally running FusionAuth.
+The `complete-application` directory contains a minimal SpringBoot app configured to authenticate with locally running FusionAuth.
 
 Install the dependencies via the Maven wrapper and run the app server with:
 ```
-cd complete-app
+cd complete-application
 ./mvnw package
 ./mvnw spring-boot:run
 ```
