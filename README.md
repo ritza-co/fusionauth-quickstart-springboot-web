@@ -1,6 +1,6 @@
 # Quickstart: Spring Web and Thymeleaf with FusionAuth
 
-This respository contains a SpringBoot application that works with a locally-running instance of [FusionAuth](https://fusionauth.io/), the authentication and authorization platform.
+This repository contains a SpringBoot application that works with a locally-running instance of [FusionAuth](https://fusionauth.io/), the authentication and authorization platform.
 
 ## Setup
 
