@@ -2,9 +2,9 @@ package io.fusionauth.quickstart.springweb.model;
 
 public class Change {
     private String error;
-    private String total = "";
-    private Integer nickels = 0;
-    private Integer pennies = 0;
+    private String total;
+    private Integer nickels;
+    private Integer pennies;
 
     public String getError() {
         return error;
@@ -39,6 +39,6 @@ public class Change {
     }
 
     public String getMessage() {
-        return String.format("We can make change for $%s with %s nickels and %s pennies!", getTotal(), getNickels(), getPennies());
+        return String.format("We can make change for %s with %s nickels and %s pennies!", getTotal(), getNickels(), getPennies());
     }
 }
