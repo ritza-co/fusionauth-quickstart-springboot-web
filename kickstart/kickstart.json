@@ -67,7 +67,7 @@
                             "http://localhost:8080/login/oauth2/code/fusionauth"
                         ],
                         "clientSecret": "super-secret-secret-that-should-be-regenerated-for-production",
-                        "logoutURL": "http://localhost:8080/logout",
+                        "logoutURL": "http://localhost:8080/",
                         "enabledGrants": [
                             "authorization_code",
                             "refresh_token"
