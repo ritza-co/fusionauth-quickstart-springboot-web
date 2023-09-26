@@ -2,7 +2,7 @@ package io.fusionauth.quickstart.springweb.model;
 
 public class Change {
     private String error;
-    private String total = "";
+    private String total = "0";
     private Integer nickels = 0;
     private Integer pennies = 0;
 
